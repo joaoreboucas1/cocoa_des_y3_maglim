@@ -1,3 +1,12 @@
+# Cocoa DES-Y3 MagLim
+This repository contains all data needed to run DES-Y3 chains with the MagLim lens galaxy sample in Cocoa. All data was taken from the DES repository and official Y3 paper.
+
+## Notes:
+There are still a few missing pieces:
+ - Point-mass parameter marginalization: what are the priors needed?
+ - Stretching the n(z) bins: see Equation (15) from https://arxiv.org/pdf/2105.13549.pdf
+ - We are sampling over neutrino mass instead of neutrino Omega - this should be OK.
+
 ## Running Cosmolike projects <a name="running_cosmolike_projects"></a> 
 
 In this tutorial, we assume the user installed Cocoa via the *Conda installation* method, and the name of the Conda environment is `cocoa`. We also presume the user's terminal is in the folder where Cocoa was cloned.
