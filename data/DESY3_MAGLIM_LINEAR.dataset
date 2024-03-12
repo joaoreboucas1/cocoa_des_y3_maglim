@@ -1,0 +1,13 @@
+data_file = Y3_MAGLIM.datavector
+cov_file = Y3_covariance.txt
+mask_file = Y3_LINEAR_mask.txt
+nz_lens_file = Y3_nz_lens.txt
+nz_source_file = Y3_nz_source.txt
+lensing_overlap_cut = 0.00
+lens_ntomo = 6
+source_ntomo = 4
+n_theta = 20
+IA_model = 6
+theta_min_arcmin = 2.5
+theta_max_arcmin = 250.
+#baryon_pca_file = pca.txt
