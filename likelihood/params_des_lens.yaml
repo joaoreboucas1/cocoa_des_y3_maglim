@@ -18,12 +18,12 @@
     prior:
       dist: norm
       loc: -0.035
-      scale: 0.003
+      scale: 0.011
     ref:
       dist: norm
       loc: -0.035
-      scale: 0.003
-    proposal: 0.001
+      scale: 0.011
+    proposal: 0.006
     latex: \Delta z_\mathrm{l,DES}^2
   DES_DZ_L3:
     prior:
